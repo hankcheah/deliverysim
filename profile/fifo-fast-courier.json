@@ -1,0 +1,19 @@
+{
+    "Name": "FIFO - Fast Couriers",
+    "Desc": "FIFO and Fast couriers.",
+    "Order": {
+        "SourceFile": "./data/dispatch_orders.json",
+        "Rate": 2,
+        "Limit": 50
+    },
+    "Kitchen": {
+        "Capacity": 20,
+        "CounterSize": 500
+    },
+    "Courier": {
+        "DispatchStrategy": "FIFO",
+        "PoolSize": 20,
+        "TravelTime": [0, 0]
+    }
+}
+

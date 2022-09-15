@@ -1,0 +1,19 @@
+{
+    "Name": "Matched - Default",
+    "Desc": "Default profile for Matched courier dispatch strategy.",
+    "Order": {
+        "SourceFile": "./data/dispatch_orders.json",
+        "Rate": 2,
+        "Limit": -1
+    },
+    "Kitchen": {
+        "Capacity": 100,
+        "CounterSize": 30
+    },
+    "Courier": {
+        "DispatchStrategy": "Matched",
+        "PoolSize": 100,
+        "TravelTime": [3, 15]
+    }
+}
+

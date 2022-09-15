@@ -1,0 +1,19 @@
+{
+    "Name": "Matched - Slow Courier",
+    "Desc": "Matched but slow couriers.",
+    "Order": {
+        "SourceFile": "./data/dispatch_orders.json",
+        "Rate": 2,
+        "Limit": 50
+    },
+    "Kitchen": {
+        "Capacity": 20,
+        "CounterSize": 500
+    },
+    "Courier": {
+        "DispatchStrategy": "Matched",
+        "PoolSize": 20,
+        "TravelTime": [10, 15]
+    }
+}
+

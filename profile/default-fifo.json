@@ -1,0 +1,19 @@
+{
+    "Name": "FIFO - Default",
+    "Desc": "Default profile for FIFO courier dispatch strategy.",
+    "Order": {
+        "SourceFile": "./data/dispatch_orders.json",
+        "Rate": 2,
+        "Limit": -1
+    },
+    "Kitchen": {
+        "Capacity": 100,
+        "CounterSize": 500
+    },
+    "Courier": {
+        "DispatchStrategy": "FIFO",
+        "PoolSize": 100,
+        "TravelTime": [3, 15]
+    }
+}
+

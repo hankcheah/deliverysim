@@ -1,0 +1,19 @@
+{
+    "Name": "FIFO - DDOS",
+    "Desc": "A huge burst of orders in a short period of time. Limited number of kitchen and courier.",
+    "Order": {
+        "SourceFile": "./data/dispatch_orders.json",
+        "Rate": 100,
+        "Limit": -1
+    },
+    "Kitchen": {
+        "Capacity": 5,
+        "CounterSize": 1
+    },
+    "Courier": {
+        "DispatchStrategy": "FIFO",
+        "PoolSize": 5,
+        "TravelTime": [3, 15]
+    }
+}
+

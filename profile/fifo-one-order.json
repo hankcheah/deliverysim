@@ -1,0 +1,19 @@
+{
+    "Name": "FIFO - One Order",
+    "Desc": "One order only.",
+    "Order": {
+        "SourceFile": "./data/dispatch_orders.json",
+        "Rate": 2,
+        "Limit": 1
+    },
+    "Kitchen": {
+        "Capacity": 1,
+        "CounterSize": 1
+    },
+    "Courier": {
+        "DispatchStrategy": "FIFO",
+        "PoolSize": 1,
+        "TravelTime": [3, 15]
+    }
+}
+
