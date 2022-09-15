@@ -1,5 +1,5 @@
 # DeliverySim
-#### A food delivery system simulator
+#### A concurrent food delivery system simulator written in Go.
 
 ## How to Use
 First, compile the project with
