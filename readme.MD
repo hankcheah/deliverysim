@@ -15,6 +15,7 @@ then run
 </code>
 
 For example, use the following command to run a simulation using a sample profile that comes with the repositry.
+
 <code>
 ./deliverysim profile/default-fifo.json
 </code>
