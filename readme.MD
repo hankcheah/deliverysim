@@ -25,7 +25,6 @@ Several profiles are provided in the**profile/** directory.
 
 For illustration, below is what a simulation profile looks like.
 
-<code>
 {
     "Name": "Matched - Default",
     "Desc": "Default profile for Matched courier dispatch strategy.",
@@ -45,7 +44,7 @@ For illustration, below is what a simulation profile looks like.
     },
     "DebugMode": false
 }
-</code>
+
 
 ### Supported parameters
 Name - Name of the profile
