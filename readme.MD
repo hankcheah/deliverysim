@@ -24,7 +24,7 @@ A simulation profile is a JSON file that defines the parameters for a simulation
 Several profiles are provided in the**profile/** directory.
 
 For illustration, below is what a simulation profile looks like.
-
+```
 {
     "Name": "Matched - Default",
     "Desc": "Default profile for Matched courier dispatch strategy.",
@@ -44,6 +44,7 @@ For illustration, below is what a simulation profile looks like.
     },
     "DebugMode": false
 }
+```
 
 
 ### Supported parameters
